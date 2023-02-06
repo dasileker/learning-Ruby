@@ -19,3 +19,8 @@ state = gets.chomp
 state.upcase!
 
 puts "Your name is #{first_name} #{last_name} and you're from #{city}, #{state}!"
+
+# Instructions
+# Check out the code in the editor—we’ve added some new things that we’ll be teaching you. Can you guess what it does? Click Run to find out!
+
+# Answer each question, and hit enter (return on some keyboards).

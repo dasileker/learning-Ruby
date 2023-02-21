@@ -15,7 +15,15 @@ print "What's your last name!: "
 last_name = gets.chomp
 last_name.capitalize!
 
+print "Where you Do live!: "
+country = gets.chomp
+country.capitalize!
+
+print "wiche city you are located in!: "
+city = gets.chomp
+city.upcase!
+
 print "What's your age!: "
 age = gets.chomp
 
-puts "Your first name is #{name}, and your last name is #{last_name}, and your age is #{age}"
+puts "Your full name is #{name} #{last_name}, your age is #{age}, and you live in #{country} #{city}"

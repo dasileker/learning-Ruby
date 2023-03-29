@@ -17,4 +17,8 @@ print "Where your live? "
 country = gets.chomp
 country.upcase!
 
-puts "Your full name is: #{first_name} #{last_name},You live in #{country}"
+print "Whiche State? "
+state = gets.chomp
+state.upcase!
+
+puts "Your full name is: #{first_name} #{last_name},You live in #{country} and your State is #{state}"

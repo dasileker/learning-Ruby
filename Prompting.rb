@@ -9,4 +9,7 @@ print "What's Your first name? "
 first_name = gets.chomp
 first_name.capitalize!
 
+print "What's you last name? "
+
+
 puts "Your first name is: #{first_name}"

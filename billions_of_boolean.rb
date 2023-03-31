@@ -12,4 +12,11 @@
 # 1.
 # The code in the editor indicates what value (true or false) we want each variable to have, and your job is to add an expression that evaluates to the correct value using boolean operators (&&, ||, or !).
 
+# test_1 should be true
+test_1 = (2==2) && (3==3)
 
+# test_2 = should be true
+test_2 = (2 == 3) || (6 == 6)
+
+# test_3 = should be false
+test_3 = !( true )

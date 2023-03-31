@@ -26,7 +26,9 @@ user_input = gets.chomp
 user_input.downcase!
 
 if user_input.include? "s"
-  user_input.gsub(/s/, "th")
+  user_input.gsub!(/s/, "th")
 else
   puts 'you are good to go'
 end
+
+puts "yay you user inpt is #{user_input}"
